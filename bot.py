@@ -63,11 +63,11 @@ async def progress(current, total, message, action):
     )
 
 
-API_ID = 12345678
-API_HASH = "YOUR API HASH"
-BOT_TOKEN = "YOUR BOT TOKEN"
+API_ID = int(os.getenv("API_ID"))
+API_HASH = os.getenv("API_HASH")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
-OWNER_ID = 8461488979
+OWNER_ID = int(os.getenv("OWNER_ID", "8461488979"))
 
 THUMB = "thumbs/thumbnail.jpg"
 DOWNLOAD_DIR = "downloads"
