@@ -64,13 +64,13 @@ async def progress(current, total, message, action):
 
 
 API_ID = 12345678
-API_HASH = "YOUR_API_HASH"
-BOT_TOKEN = "YOUR_BOT_TOKEN"
+API_HASH = "YOUR API HASH"
+BOT_TOKEN = "YOUR BOT TOKEN"
 
 OWNER_ID = 8461488979
 
-THUMB = "/storage/emulated/0/ThumbnailBot/thumbs/thumb.jpg"
-DOWNLOAD_DIR = "/storage/emulated/0/ThumbnailBot/downloads"
+THUMB = "thumbs/thumbnail.jpg"
+DOWNLOAD_DIR = "downloads"
 
 
 # Folders create
