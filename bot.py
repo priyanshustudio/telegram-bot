@@ -63,9 +63,9 @@ async def progress(current, total, message, action):
     )
 
 
-API_ID = 012345678
-API_HASH = "API HASH"
-BOT_TOKEN = "Bot Token"
+API_ID="12345678"
+API_HASH="API_HASH"
+BOT_TOKEN="Bot_Token"
 
 OWNER_ID = 8461488979
 
